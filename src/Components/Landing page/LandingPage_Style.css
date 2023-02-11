@@ -1,0 +1,10 @@
+.title-lp{
+    color:#44434b !important;
+}
+.subtitle-lp{
+    color: #939397 !important;
+    text-decoration: none !important;
+}
+#card-features:hover{
+    background-color: #c8effc !important;
+}
