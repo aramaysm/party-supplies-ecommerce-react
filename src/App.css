@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
+/*
+09b4e4
+*/
 
 :root{
   --primary-color-pink: #fe6dd4;
   --primary-color-purple: #a06af4;
-  --primary-color-blue: #0cb7F2;
-  --primary-color-yellow: #ffe100;
+  --primary-color-blue: #009fe8;
+  --primary-color-yellow: #f9c601;
   --font-family: 'Poppins', sans-serif;
-  --color-blue-light: #b8cdf3;
+  --color-blue-light: #dae2f4;
+  --color-yellow-light: #fdfcc4;
   --color-gray-light: #f5f5f5;
   --color-gray: rgb(153, 153, 153);
 }
@@ -39,6 +43,7 @@ body{
 .button-primary-blue{
   background-color: var(--primary-color-blue);
   color: white;
+  box-shadow: 0 0.25rem 0.25rem #36bbf8 !important;
  
 }
 .button-primary-yellow{
@@ -76,12 +81,6 @@ body{
 }
 
 
-#banner1_landingpage{
-  background-image: linear-gradient(#60cef3,#01ace6);
-  border-radius: 0 0 100px 100px !important; 
-
-}
-
 
 .border-none{
   border: none !important;
@@ -90,12 +89,15 @@ body{
   border-radius: 15px !important;
 }
 .border-gray{
-  border: gray 1px solid;
+  border: rgb(187, 186, 186) 1px solid;
+}
+.border-yellow{
+  border: var(--primary-color-yellow) 1px solid !important;
 }
 
 .glass-effect{
   background: rgba(255, 255, 255, 0.37) !important;
-  backdrop-filter: blur(2px);  
+  backdrop-filter: blur(1px);  
 }
 
 
@@ -126,7 +128,12 @@ body{
 .bg-blue{
   background-color: var(--primary-color-blue) !important;
 }
-
+.bg-yellow-light{
+  background-color: var(--color-yellow-light) !important;
+}
+.bg-blue-light{
+  background-color: var(--color-blue-light) !important;
+}
 
 
 .border-bottom-yellow{
@@ -136,7 +143,7 @@ body{
   border: var(--primary-color-blue) 1px solid !important;
 }
 .shadow-yellow{
-  box-shadow: 0 0.1rem 1rem var(--primary-color-yellow) !important;
+  box-shadow: 0 0.1rem 1rem var(--color-yellow-light) !important;
 }
 
 

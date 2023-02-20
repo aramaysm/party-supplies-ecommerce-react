@@ -8,3 +8,14 @@
 #card-features:hover{
     background-color: #c8effc !important;
 }
+#banner1_landingpage{
+
+background-image: linear-gradient(#c9eeff, #f5f5f5);
+border-radius: 0 0 50px 50px !important;
+/*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;*/
+}
+
+#banner2_landingpage{
+    background-image: url("../../assets/cintafonndo.png");
+background-size: contain;
+}
